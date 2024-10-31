@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LTHT_K22cnt1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DONHANG">
+    <Key>
+      <PropertyRef Name="MaDonHang" />
+    </Key>
+    <Property Name="MaDonHang" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaUser" Type="int" Nullable="false" />
+    <Property Name="NgayDatHang" Type="datetime" />
+    <Property Name="TongTien" Type="float" Nullable="false" />
+    <Property Name="TrangThai" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DiaChiNhan" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="DONHANGCT">
+    <Key>
+      <PropertyRef Name="MaChiTiet" />
+    </Key>
+    <Property Name="MaChiTiet" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaDonHang" Type="int" Nullable="false" />
+    <Property Name="MaHang" Type="int" Nullable="false" />
+    <Property Name="SoLuong" Type="int" Nullable="false" />
+    <Property Name="GiaBan" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HANGHOA">
+    <Key>
+      <PropertyRef Name="MaHang" />
+    </Key>
+    <Property Name="MaHang" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenHang" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="MoTa" Type="nvarchar(max)" />
+    <Property Name="Gia" Type="float" Nullable="false" />
+    <Property Name="SoLuongTon" Type="int" />
+    <Property Name="NgayNhap" Type="datetime" />
+  </EntityType>
+  <EntityType Name="QUANTRI">
+    <Key>
+      <PropertyRef Name="MaQT" />
+    </Key>
+    <Property Name="MaQT" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenDangNhap" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MatKhau" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="HoTen" Type="nvarchar" MaxLength="100" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="DienThoai" Type="nvarchar" MaxLength="20" />
+    <Property Name="NgayTao" Type="datetime" />
+  </EntityType>
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="MaUser" />
+    </Key>
+    <Property Name="MaUser" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenDangNhap" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MatKhau" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="HoTen" Type="nvarchar" MaxLength="100" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="DienThoai" Type="nvarchar" MaxLength="20" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="200" />
+    <Property Name="NgayTao" Type="datetime" />
+  </EntityType>
+  <Association Name="FK__DONHANG__MaUser__4CA06362">
+    <End Role="USER" Type="Self.USER" Multiplicity="1" />
+    <End Role="DONHANG" Type="Self.DONHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER">
+        <PropertyRef Name="MaUser" />
+      </Principal>
+      <Dependent Role="DONHANG">
+        <PropertyRef Name="MaUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DONHANGCT__MaDon__4F7CD00D">
+    <End Role="DONHANG" Type="Self.DONHANG" Multiplicity="1" />
+    <End Role="DONHANGCT" Type="Self.DONHANGCT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DONHANG">
+        <PropertyRef Name="MaDonHang" />
+      </Principal>
+      <Dependent Role="DONHANGCT">
+        <PropertyRef Name="MaDonHang" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DONHANGCT__MaHan__5070F446">
+    <End Role="HANGHOA" Type="Self.HANGHOA" Multiplicity="1" />
+    <End Role="DONHANGCT" Type="Self.DONHANGCT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HANGHOA">
+        <PropertyRef Name="MaHang" />
+      </Principal>
+      <Dependent Role="DONHANGCT">
+        <PropertyRef Name="MaHang" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LTHT_K22cnt1ModelStoreContainer">
+    <EntitySet Name="DONHANG" EntityType="Self.DONHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DONHANGCT" EntityType="Self.DONHANGCT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HANGHOA" EntityType="Self.HANGHOA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QUANTRI" EntityType="Self.QUANTRI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USER" EntityType="Self.USER" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__DONHANG__MaUser__4CA06362" Association="Self.FK__DONHANG__MaUser__4CA06362">
+      <End Role="USER" EntitySet="USER" />
+      <End Role="DONHANG" EntitySet="DONHANG" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DONHANGCT__MaDon__4F7CD00D" Association="Self.FK__DONHANGCT__MaDon__4F7CD00D">
+      <End Role="DONHANG" EntitySet="DONHANG" />
+      <End Role="DONHANGCT" EntitySet="DONHANGCT" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DONHANGCT__MaHan__5070F446" Association="Self.FK__DONHANGCT__MaHan__5070F446">
+      <End Role="HANGHOA" EntitySet="HANGHOA" />
+      <End Role="DONHANGCT" EntitySet="DONHANGCT" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

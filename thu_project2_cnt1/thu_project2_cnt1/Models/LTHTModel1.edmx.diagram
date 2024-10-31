@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5e5accbca27541039d192bd333b9f54b" Name="Diagram1">
+        <EntityTypeShape EntityType="LTHT_K22cnt1Model.DONHANG" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="LTHT_K22cnt1Model.DONHANGCT" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LTHT_K22cnt1Model.HANGHOA" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LTHT_K22cnt1Model.QUANTRI" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LTHT_K22cnt1Model.USER" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="LTHT_K22cnt1Model.FK__DONHANG__MaUser__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="LTHT_K22cnt1Model.FK__DONHANGCT__MaDon__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="LTHT_K22cnt1Model.FK__DONHANGCT__MaHan__5070F446" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
