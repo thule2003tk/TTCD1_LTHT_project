@@ -1,0 +1,52 @@
+﻿@model IEnumerable<thu_project2_cnt1.Models.DONHANGCT>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Chi tiết đon hàng</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SoLuong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GiaBan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DONHANG.TrangThai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HANGHOA.TenHang)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SoLuong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GiaBan)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DONHANG.TrangThai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HANGHOA.TenHang)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaChiTiet.ToString() }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaChiTiet.ToString() }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaChiTiet.ToString() })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,93 @@
+﻿@model thu_project2_cnt1.Models.DONHANG
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewBag.Title = "Details";
+    var chiTiet = ViewBag.chiTietHoaDon as List<thu_project2_cnt1.Models.DONHANGCT>;
+}
+<h2>Details for Order @Model.MaDonHang</h2>
+
+<div>
+    <h4>Order Information</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayDatHang)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NgayDatHang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TongTien)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TongTien)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TrangThai)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiaChiNhan)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DiaChiNhan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.USER.TenDangNhap)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.USER.TenDangNhap)
+        </dd>
+    </dl>
+</div>
+<div>
+    @if (chiTiet != null)
+    {
+        var stt = 0;
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">MaSP</th>
+                    <th scope="col">Tên sản phẩm</th>
+                    <th scope="col">Số lượng</th>
+                    <th scope="col">Đơn giá</th>
+                    <th scope="col">Thành tiền</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in chiTiet)
+                {
+                    stt++;
+                    <tr>
+                        <th scope="row">@stt</th>
+                        <td> @Html.DisplayFor(modelItem => item.MaChiTiet)</td>
+                        <td> @Html.DisplayFor(modelItem => item.DONHANG.MaDonHang)</td>
+                        <td> @Html.DisplayFor(modelItem => item.SoLuong)</td>
+                        <td> @Html.DisplayFor(modelItem => item.GiaBan)</td>
+                        <td> @Html.DisplayFor(modelItem => item.DONHANG.TrangThai)</td>
+                        <td>...</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+</div>
+
+<h4>Order Details</h4>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaDonHang.ToString() }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

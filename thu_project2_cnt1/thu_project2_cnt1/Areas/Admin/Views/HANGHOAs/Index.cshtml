@@ -48,9 +48,9 @@
             @Html.DisplayFor(modelItem => item.NgayNhap)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.MaHang }) |
-            @Html.ActionLink("Details", "Details", new { id=item.MaHang }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.MaHang })
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaHang.ToString() }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaHang.ToString() }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaHang.ToString() })
         </td>
     </tr>
 }

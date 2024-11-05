@@ -1,0 +1,51 @@
+﻿@model thu_project2_cnt1.Models.DONHANGCT
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DONHANGCT</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SoLuong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoLuong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GiaBan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GiaBan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DONHANG.TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONHANG.TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HANGHOA.TenHang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HANGHOA.TenHang)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaChiTiet.ToString() }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

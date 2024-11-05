@@ -130,8 +130,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\DONHANGCTsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\DONHANGsController.cs" />
     <Compile Include="Areas\Admin\Controllers\HANGHOAsController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\USERsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -219,6 +222,21 @@
     <Content Include="Areas\Admin\Views\HANGHOAs\Details.cshtml" />
     <Content Include="Areas\Admin\Views\HANGHOAs\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\HANGHOAs\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\DONHANGs\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\DONHANGs\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\DONHANGs\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\DONHANGs\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\DONHANGs\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\DONHANGCTs\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\DONHANGCTs\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\DONHANGCTs\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\DONHANGCTs\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\DONHANGCTs\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\USERs\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\USERs\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\USERs\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\USERs\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\USERs\Index.cshtml" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -241,9 +259,9 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\LthtAbout.cshtml" />
-    <Content Include="Views\Home\LthtContact.cshtml" />
-    <Content Include="Views\Home\LthtIndex.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
