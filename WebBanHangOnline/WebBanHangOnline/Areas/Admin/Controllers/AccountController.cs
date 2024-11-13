@@ -11,7 +11,7 @@ using WebBanHangOnline.Models;
 
 namespace WebBanHangOnline.Areas.Admin.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
@@ -120,7 +120,7 @@ namespace WebBanHangOnline.Areas.Admin.Controllers
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(CreateAccountViewModel model)
-        {
+        { 
             if (ModelState.IsValid)
             {
                 var user = new ApplicationUser

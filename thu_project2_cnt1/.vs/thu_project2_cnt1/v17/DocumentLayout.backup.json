@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|solutionrelative:thu_project2_cnt1\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\areas\\admin\\controllers\\hanghoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|solutionrelative:thu_project2_cnt1\\areas\\admin\\controllers\\hanghoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|d:\\ttcd1\\ttcd1_ltht_project\\thu_project2_cnt1\\thu_project2_cnt1\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|solutionrelative:thu_project2_cnt1\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|solutionrelative:thu_project2_cnt1\\areas\\admin\\controllers\\donhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|solutionrelative:thu_project2_cnt1\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\areas\\admin\\views\\donhangcts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|solutionrelative:thu_project2_cnt1\\areas\\admin\\views\\donhangcts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -77,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|solutionrelative:thu_project2_cnt1\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\areas\\admin\\controllers\\hanghoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|solutionrelative:thu_project2_cnt1\\areas\\admin\\controllers\\hanghoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C4A5866-E4E4-47DA-927D-3C62E7915E54}|thu_project2_cnt1\\thu_project2_cnt1.csproj|D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\areas\\admin\\views\\hanghoas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -134,31 +134,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "thu_project2_cnt1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "thu_project2_cnt1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-04T07:28:01.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LTHTModel1.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Models\\LTHTModel1.edmx",
-              "RelativeDocumentMoniker": "thu_project2_cnt1\\Models\\LTHTModel1.edmx",
-              "ToolTip": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Models\\LTHTModel1.edmx [Diagram1]",
-              "RelativeToolTip": "thu_project2_cnt1\\Models\\LTHTModel1.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-10-31T03:05:45.567Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 28,
@@ -185,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AdminAreaRegistration.cs",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\AdminAreaRegistration.cs",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\AdminAreaRegistration.cs",
@@ -197,20 +174,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "USERsController.cs",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Controllers\\USERsController.cs",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Controllers\\USERsController.cs",
               "ToolTip": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Controllers\\USERsController.cs",
               "RelativeToolTip": "thu_project2_cnt1\\Areas\\Admin\\Controllers\\USERsController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAxwAwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T07:41:21.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Controllers\\HomeController.cs",
@@ -218,11 +195,61 @@
               "RelativeToolTip": "thu_project2_cnt1\\Areas\\Admin\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:57:20.122Z"
+              "WhenOpened": "2024-10-31T11:57:20.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HANGHOAsController.cs",
+              "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Controllers\\HANGHOAsController.cs",
+              "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Controllers\\HANGHOAsController.cs",
+              "ToolTip": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Controllers\\HANGHOAsController.cs",
+              "RelativeToolTip": "thu_project2_cnt1\\Areas\\Admin\\Controllers\\HANGHOAsController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:58:20.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "thu_project2_cnt1\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T11:55:03.1Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "LTHTModel1.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Models\\LTHTModel1.edmx",
+              "RelativeDocumentMoniker": "thu_project2_cnt1\\Models\\LTHTModel1.edmx",
+              "ToolTip": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Models\\LTHTModel1.edmx [Diagram1]",
+              "RelativeToolTip": "thu_project2_cnt1\\Models\\LTHTModel1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-10-31T03:05:45.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "thu_project2_cnt1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "thu_project2_cnt1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T07:28:01.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Views\\DONHANGs\\Details.cshtml",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Views\\DONHANGs\\Details.cshtml",
@@ -234,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Views\\HANGHOAs\\Details.cshtml",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Views\\HANGHOAs\\Details.cshtml",
@@ -246,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Views\\DONHANGCTs\\Index.cshtml",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Views\\DONHANGCTs\\Index.cshtml",
@@ -258,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Views\\USERs\\Index.cshtml",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Views\\USERs\\Index.cshtml",
@@ -270,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Views\\HANGHOAs\\Index.cshtml",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Views\\HANGHOAs\\Index.cshtml",
@@ -282,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Views\\DONHANGs\\Index.cshtml",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Views\\DONHANGs\\Index.cshtml",
@@ -294,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Views\\_ViewStart.cshtml",
@@ -306,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "DONHANGsController.cs",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Controllers\\DONHANGsController.cs",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Controllers\\DONHANGsController.cs",
@@ -318,19 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "thu_project2_cnt1\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T11:55:03.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "LTHTModel1.Context.tt",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Models\\LTHTModel1.Context.tt",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Models\\LTHTModel1.Context.tt",
@@ -342,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Views\\USERs\\Details.cshtml",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Views\\USERs\\Details.cshtml",
@@ -354,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Views\\DONHANGCTs\\Details.cshtml",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Views\\DONHANGCTs\\Details.cshtml",
@@ -366,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "DONHANGCTsController.cs",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Controllers\\DONHANGCTsController.cs",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Controllers\\DONHANGCTsController.cs",
@@ -402,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "thu_project2_cnt1\\Controllers\\HomeController.cs",
@@ -411,18 +426,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T03:32:42.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HANGHOAsController.cs",
-              "DocumentMoniker": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Controllers\\HANGHOAsController.cs",
-              "RelativeDocumentMoniker": "thu_project2_cnt1\\Areas\\Admin\\Controllers\\HANGHOAsController.cs",
-              "ToolTip": "D:\\TTCD1\\TTCD1_LTHT_project\\thu_project2_cnt1\\thu_project2_cnt1\\Areas\\Admin\\Controllers\\HANGHOAsController.cs",
-              "RelativeToolTip": "thu_project2_cnt1\\Areas\\Admin\\Controllers\\HANGHOAsController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwAwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:58:20.556Z"
             },
             {
               "$type": "Document",
