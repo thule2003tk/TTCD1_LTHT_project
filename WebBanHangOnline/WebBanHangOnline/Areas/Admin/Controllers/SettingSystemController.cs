@@ -23,7 +23,7 @@ namespace WebBanHangOnline.Areas.Admin.Controllers
         }
         [HttpPost]
         public ActionResult AddSetting(SettingSystemViewModel req)
-        {
+        { 
             SystemSetting set = null;
             var checkTitle = db.SystemSettings.FirstOrDefault(x => x.SettingKey.Contains("SettingTitle"));
             if (checkTitle == null)
